@@ -113,9 +113,9 @@ main {
     border-radius: 25px;
     border: 2px solid black; 
     padding: 50px;
-    width: 80%; /* Adjusted for responsiveness */
-    max-width: 1500px; /* Max width */
-    height: auto; /* Allow height to adjust */
+    width: 80%; 
+    max-width: 1500px;
+    height: auto; 
     text-align: center; 
 }
 
@@ -129,16 +129,14 @@ main {
 
 .circle-image2 {
     border-radius: 48px;
-    width: 100%; /* Make image responsive */
-    max-width: 370px; /* Limit max width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 370px; 
+    height: auto; 
 }
 
 .description {
-    font-size: 30px; 
-    color: #000; 
-    margin: 0; 
-    max-width: 80%; 
+    font-size: 2em;
+    margin-top: 10px; 
 }
 
 /* Skill Container */
@@ -356,7 +354,8 @@ main {
         font-size: 0.8em;
     }
     .description{
-        font-size: 0,8em;
+        font-size: 1em;
+        margin-top: 10px; 
     }
 
     .skill_container, .experience_container {
